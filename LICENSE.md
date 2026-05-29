@@ -93,7 +93,7 @@ Any feedback, suggestions, comments, or contributions provided by any party may 
 
 ## 7. Third-Party Components
 
-The Software includes third-party open-source components (including but not limited to .NET MAUI, the .NET runtime, eWayCRM.API, Newtonsoft.Json, and their dependencies) subject to their respective licenses.
+The Software includes third-party open-source components (including but not limited to .NET MAUI, the .NET runtime, Newtonsoft.Json, and their dependencies) subject to their respective licenses.
 Those licenses govern such components independently of this License.
 Use of those components within the Software remains restricted to the Authorized Parties under the terms of this License.
 
