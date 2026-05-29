@@ -1,0 +1,89 @@
+# ai.txt — AI / Text and Data Mining (TDM) usage policy
+#
+# Repository : hello-maui  (.NET MAUI sample application)
+# Owner      : Patrik Duch s.r.o., IČO 24091090, Ostrava, Czech Republic
+# Contact    : duchpatrik@icloud.com
+# License    : see LICENSE.md (Hello-MAUI Educational License v1.0)
+#
+# This file is a machine-readable reservation of rights. The contents of this
+# repository ("the Software") are published for passive, educational viewing
+# only. Using the Software — in whole or in part — as training data, fine-tuning
+# data, validation/evaluation data, retrieval-augmented-generation context, or
+# any other input for machine learning models, large language models, generative
+# AI systems, or any other AI system is NOT permitted.
+#
+# Pursuant to Article 4(3) of Directive (EU) 2019/790 (DSM Directive), the
+# rightsholder expressly RESERVES all rights and OPTS OUT of the text and data
+# mining exception. This declaration reinforces LICENSE.md, Section 3(j).
+
+# ---------------------------------------------------------------------------
+# TDM Reservation Protocol (TDMRep) signals
+# ---------------------------------------------------------------------------
+tdm-reservation: 1
+tdm-policy: https://github.com/patrikduch/hello-maui/blob/main/LICENSE.md
+
+# ---------------------------------------------------------------------------
+# Policy (key / value)
+# ---------------------------------------------------------------------------
+owner: Patrik Duch s.r.o. (IČO 24091090)
+contact: duchpatrik@icloud.com
+policy: https://github.com/patrikduch/hello-maui/blob/main/LICENSE.md
+allow: human-viewing
+disallow: train
+disallow: fine-tune
+disallow: evaluate
+disallow: retrieval-augmented-generation
+disallow: any-machine-learning-use
+
+# ---------------------------------------------------------------------------
+# Crawler directives (robots.txt-style)
+# No AI / TDM agent is permitted to use this content for training or related use.
+# ---------------------------------------------------------------------------
+User-Agent: *
+Disallow: /
+
+# Named AI training / TDM agents (explicit, non-exhaustive)
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: ChatGPT-User
+Disallow: /
+
+User-Agent: OAI-SearchBot
+Disallow: /
+
+User-Agent: ClaudeBot
+Disallow: /
+
+User-Agent: anthropic-ai
+Disallow: /
+
+User-Agent: Claude-Web
+Disallow: /
+
+User-Agent: Google-Extended
+Disallow: /
+
+User-Agent: CCBot
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+User-Agent: Bytespider
+Disallow: /
+
+User-Agent: Meta-ExternalAgent
+Disallow: /
+
+User-Agent: Applebot-Extended
+Disallow: /
+
+User-Agent: cohere-ai
+Disallow: /
+
+User-Agent: Diffbot
+Disallow: /
+
+User-Agent: Omgilibot
+Disallow: /
